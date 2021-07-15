@@ -1,1 +1,67 @@
-ola mundo
+ola mundo comandos git
+
+
+ssh-keygen   gerando um par de chave para acessar seu repositorio git
+
+-git config -–global user.name “”
+-git config -–global user.email “”
+-git init
+-git remote add origin "colocar o repositorio"
+ 
+////////////////// COMADO SUBIR REPOSITORIO PARA GIT  /////////////////////////////////////////////////////////////////////// 
+
+-git clone"colocar o repositorio"
+-git add . / add* / add*nomeDoarquivo
+-git status verificar o status dos aquivos
+-git commit -m “escreva sobre seu projeto aqui” 
+ -git commit -a -m "nome" pula a etapa de add automaticamente no repositorio
+-git push origin master 
+-git pull origin máster tras os aquivos do servidor e atualiza o projeto / git fetch origin branch nome não faz um mage tras o aquivo separado
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+- .gitignore = cria uma arquivo que vai ser ignorado pelo git colocar todos aquivos que o git ira ignorar no repositorio
+
+///////// MOSTRA ALTERAÇÔES ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-git diff mostra oq foi alterado 
+-git diff --staged aquivo motificado que esta na stagiaria para ser adicionado ao repositorio
+-git log historico de todos commit
+-git log -p mostra tudo oq foi alterado junto com o historico / ao final precionar  (q)para voltar ao terminal
+-gitk moto grafico de todas as alterações
+-git log --pretty=oneline mostra o codigo e o nomes das alterações
+-git --amend -m "msg" edita não cria um novo add 
+
+////////////// REMOVER e DESFAZER /////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-git reset HEAD nome do aquivo remove o aquivo add da estege are
+-git checkout --nome nome do aquivo para desfazer as alterações feitas
+-git rm nome do aquivo para remover deletar os aquivos 
+
+/////////// TAG tags etiquetas para simplificar as versões ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-git tag -a v1.0 -m "versão 1.0" criar uma tag
+-git tag mostra a tag
+-git tag -a v0.0 chave do aquivo -m "versão 0.0" assim cria uma tag de um arquivo antigo
+-git show v0.0 mostra detalhada da tag
+-git checkout v0.0 nome da tag faz aeração para qual tag q vc ira trabalhar
+-git checkout master volta para brasch original
+-git tag -d v0.0 nome da tag para deletar a tag
+
+/////////// BRANCH /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-git branch teste (nome) cria uma branch
+-git checkout teste (nome da brabch) mudou a branch para o de teste
+-git checkout -b teste (nome da branch) ja cria e faz a mudança para branch de teste
+(git commit -a -m "nome" depois git checkout master e volta para versão original do plojeto
+termino git checkout teste e volta para branch de teste)
+-git marge teste (nome da branch) ira junta sua alterações feitas para branch-master principal
+-git branch -d teste (nome da branch) deleta a branch teste
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+git init --bare criando um git init na maquina onde ficara o projeto no servido
+git clone file:////nomeDoServidor/pasta/cliente nome
+
+
+
