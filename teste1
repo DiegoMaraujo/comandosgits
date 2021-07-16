@@ -1,4 +1,18 @@
+
 ola mundo comandos git
+
+//////// NAVEGAR //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ls = lista de obejetos e pastas
+cd .. = subir de local
+cd / + nome pasta = entra na pasta
+cd / = navega
+csl = limpa
+mkdir = criar pasta 
+vim = para editar arquivo
+esc = sair depois :w nome do arquivo / esc :q = sair ou esc:wq
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ssh-keygen   gerando um par de chave para acessar seu repositorio git
@@ -8,14 +22,18 @@ ssh-keygen   gerando um par de chave para acessar seu repositorio git
 -git init
 -git remote add origin "colocar o repositorio"
  
-////////////////// COMADO SUBIR REPOSITORIO PARA GIT  /////////////////////////////////////////////////////////////////////// 
+////////////////// COMADO SUBIR REPOSITORIO PARA GIT  ////////////////////////////////////////////////////////////////////////////////////////////
 
 -git clone"colocar o repositorio"
--git add . / add* / add*nomeDoarquivo
+-git add . / add* / add*nomeDoarquivo 
+-git add --all vai todos os aquivos
+-git add -a  adiciona tds as mudanças
 -git status verificar o status dos aquivos
 -git commit -m “escreva sobre seu projeto aqui” 
- -git commit -a -m "nome" pula a etapa de add automaticamente no repositorio
--git push origin master 
+-git commit -a -m "nome" pula a etapa de add automaticamente no repositorio
+-git push origin master  
+-git push -u origin nome = sobe o projeto
+-git push -f origin master = força subir o repositorio
 -git pull origin máster tras os aquivos do servidor e atualiza o projeto / git fetch origin branch nome não faz um mage tras o aquivo separado
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
