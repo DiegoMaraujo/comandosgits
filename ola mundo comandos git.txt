@@ -1,0 +1,41 @@
+ola mundo comandos git
+
+//////// NAVEGAR ///////////////////////////////////////////////////////////// /////////////////////////////////////////////////////////////
+
+ls = lista de objetos e pastas
+cd .. = subir de local
+cd / + nome pasta = entra na pasta
+cd / = navegação
+csl = limpo
+mkdir = criar pasta
+vim = para editar arquivo
+esc = sair depois :w nome do arquivo / esc :q = sair ou esc:wq
+
+//////////////////////////////////////////////////////////////// ////////////////////////////////////////////////////////////////
+
+
+ssh-keygen gerando um par de chave para acessar seu repositório git
+
+@@ -8,14 +22,18 @@ ssh-keygen gerando um par de chave para acessar seu repositório git
+-git inicialização
+-git remote add origin "colocar o repositório"
+
+////////////////// COMADO SUBIR REPOSITORIO PARA GIT ////////////////////////////////////////////////////////////////// 
+////////////////// COMADO SUBIR REPOSITORIO PARA GIT ////////////////////////////////////////////////////////////////// ////////////////////
+
+-git clone"colocar o repositório"
+-git add . / add* / add*nomeDoArquivo
+-git add . / add* / add*nomeDoArquivo
+-git add --all vai todos os aquivos
+-git add -a adicionar tds conforme mudanças
+-git status verifica o status dos aquivos
+-git commit -m “escreva seu projeto aqui”
+-git commit -a -m "nome" pula a etapa de adicionar automaticamente no repositório
+-git push origem mestre
+-git commit -a -m "nome" pula a etapa de adicionar automaticamente no repositório
+-git push origem mestre  
+-git push -u nome de origem = sobe o projeto
+-git push -f origin master = força subir o repositório
+-git pull origin máster atrás dos aquivos do servidor e atualiza o projeto / git fetch origin branch nome não faz um mago atrás do aquivo separado
+
+//////////////////////////////////////////////////////////////////// ////////////////////////////////////////////////////////////////////
