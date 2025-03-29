@@ -25,7 +25,6 @@ ssh-keygen gerando um par de chave para acessar seu repositório git
 
 -git clone"colocar o repositório"
 -git add . / add* / add*nomeDoArquivo
--git add . / add* / add*nomeDoArquivo
 -git add --all vai todos os aquivos
 -git add -a adicionar tds conforme mudanças
 -git status verifica o status dos aquivos
@@ -39,3 +38,10 @@ ssh-keygen gerando um par de chave para acessar seu repositório git
 -git pull origin máster atrás dos aquivos do servidor e atualiza o projeto / git fetch origin branch nome não faz um mago atrás do aquivo separado
 
 //////////////////////////////////////////////////////////////////// ////////////////////////////////////////////////////////////////////
+
+git init
+git add .
+git commit -m "comentario"
+git branch -M main
+git remote add origin "nome do repositorio"
+git push -u origin main
